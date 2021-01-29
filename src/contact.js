@@ -7,11 +7,11 @@ function setBtnActive(id) {
 }
 function createSection(name, data) {
   const section = document.createElement('section');
-  section.className = 'mx-auto text-center bg-light w-50 mt-4'
+  section.className = 'mx-auto text-center bg-light w-50 mt-4';
   section.classList.add('section');
 
   const title = document.createElement('h2');
-  title.className = 'text-success'
+  title.className = 'text-success';
   title.classList.add('section-title');
   title.textContent = name;
   section.appendChild(title);
@@ -34,7 +34,7 @@ function loadContact() {
 
   const phoneSection = createSection('Call us:', [
     '001 4587-8754-987',
-    '001 9875-8874-887'
+    '001 9875-8874-887',
   ]);
 
   const addressSection = createSection('Where to find us', ['First Street, 192733 Blvr Ocean.']);

@@ -1,19 +1,18 @@
 function createAboutSection() {
   const about = document.createElement('section');
   about.classList.add('section');
-  about.className = ' mt-5 mb-5 w-75 text-center mx-auto bg-light'
+  about.className = ' mt-5 mb-5 w-75 text-center mx-auto bg-light';
 
   const title = document.createElement('h2');
   title.classList.add('section-title');
   title.textContent = 'Taste our best dishes';
-  title.className = 'text-left text-info'
+  title.className = 'text-left text-info';
 
   about.appendChild(title);
 
   const para = document.createElement('p');
   para.classList.add('section-description');
-  para.textContent =
-    'The best from our cuisine for your taste and enjoy!, Please order want you want as fast as possible!.';
+  para.textContent = 'The best from our cuisine for your taste and enjoy!, Please order want you want as fast as possible!.';
 
   about.appendChild(para);
   return about;
