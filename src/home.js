@@ -38,6 +38,6 @@ const loadHome = () => {
   setBtnActive('home');
 
   content.appendChild(aboutSection);
-}
+};
 
 export default loadHome;

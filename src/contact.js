@@ -41,6 +41,6 @@ const loadContact = () => {
 
   content.appendChild(phoneSection);
   content.appendChild(addressSection);
-}
+};
 
 export default loadContact;

@@ -44,6 +44,6 @@ const loadPage = () => {
   const tabContent = createMain('tab-content');
   tabContent.className = 'container d-flex flex-column justify-content-center w-75';
   content.appendChild(tabContent);
-}
+};
 
 export default loadPage;

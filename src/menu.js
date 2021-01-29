@@ -78,6 +78,6 @@ const loadMenu = () => {
   foods.forEach((food) => {
     content.appendChild(food);
   });
-}
+};
 
 export default loadMenu;
