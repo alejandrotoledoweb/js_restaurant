@@ -35,7 +35,7 @@ function createFood(src, text, price, alt) {
   return food;
 }
 
-function loadMenu() {
+const loadMenu = () => {
   const content = document.getElementById('tab-content');
   content.classList.add('d-flex');
 

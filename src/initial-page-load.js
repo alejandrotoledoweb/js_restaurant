@@ -30,7 +30,7 @@ function createMain(id) {
   return main;
 }
 
-function loadPage() {
+const loadPage = () => {
   const content = document.getElementById('content');
   // header
   const header = document.createElement('h1');

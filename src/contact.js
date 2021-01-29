@@ -26,7 +26,7 @@ function createSection(name, data) {
   return section;
 }
 
-function loadContact() {
+const loadContact = () => {
   const content = document.getElementById('tab-content');
   content.classList.add('d-flex');
   content.textContent = '';

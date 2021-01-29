@@ -26,7 +26,7 @@ function setBtnActive(id) {
   homeBtn.classList.add('active');
 }
 
-function loadHome() {
+const loadHome = () => {
   const content = document.getElementById('tab-content');
   content.classList.add('d-flex');
   content.classList.remove('grid-lay');

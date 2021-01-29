@@ -3,7 +3,7 @@ import loadHome from './home';
 import loadMenu from './menu';
 import loadContact from './contact';
 
-function addNavEvents() {
+const addNavEvents = () => {
   const homeBtn = document.getElementById('home');
   const menuBtn = document.getElementById('menu');
   const contactBtn = document.getElementById('contact');
