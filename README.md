@@ -19,7 +19,7 @@ The entire project contains three pages.
 
 ## Live Preview
 
-[Restaurant Page](./assets/images/home-screen-shot.png)
+[Restaurant Page](https://rawcdn.githack.com/alejandrotoledoweb/js_restaurant/7d03c46746c2c9fc0fa5f45ee9b650a58c35e557/dist/index.html)
 
 ## Getting Started
 
