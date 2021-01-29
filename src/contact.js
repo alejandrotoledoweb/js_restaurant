@@ -1,11 +1,11 @@
-function setBtnActive(id) {
+const setBtnActive = (id) => {
   const activeBtn = document.querySelector('.tab.active');
   if (activeBtn) activeBtn.classList.remove('active');
 
   const homeBtn = document.getElementById(id);
   homeBtn.classList.add('active');
-}
-function createSection(name, data) {
+};
+const createSection = (name, data) => {
   const section = document.createElement('section');
   section.className = 'mx-auto text-center bg-light w-50 mt-4';
   section.classList.add('section');
@@ -24,7 +24,7 @@ function createSection(name, data) {
   });
 
   return section;
-}
+};
 
 const loadContact = () => {
   const content = document.getElementById('tab-content');

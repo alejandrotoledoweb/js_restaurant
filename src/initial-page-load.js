@@ -1,4 +1,4 @@
-function createBtn(id, text) {
+const createBtn = (id, text) => {
   const btn = document.createElement('button');
   btn.setAttribute('id', id);
   const span = document.createElement('span');
@@ -6,8 +6,9 @@ function createBtn(id, text) {
   btn.appendChild(span);
   btn.classList.add('tab');
   return btn;
-}
-function createNav(id) {
+};
+
+const createNav = (id) => {
   const nav = document.createElement('nav');
   nav.setAttribute('id', id);
   nav.className = 'nav nav-tabs justify-content-center font-weight-bold';
@@ -23,12 +24,13 @@ function createNav(id) {
   nav.appendChild(menuBtn);
   nav.appendChild(contactBtn);
   return nav;
-}
-function createMain(id) {
+};
+
+const createMain = (id) => {
   const main = document.createElement('main');
   main.setAttribute('id', id);
   return main;
-}
+};
 
 const loadPage = () => {
   const content = document.getElementById('content');

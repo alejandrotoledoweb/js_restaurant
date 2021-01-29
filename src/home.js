@@ -1,4 +1,4 @@
-function createAboutSection() {
+const createAboutSection = () => {
   const about = document.createElement('section');
   about.classList.add('section');
   about.className = ' mt-5 mb-5 w-75 text-center mx-auto bg-light';
@@ -16,15 +16,15 @@ function createAboutSection() {
 
   about.appendChild(para);
   return about;
-}
+};
 
-function setBtnActive(id) {
+const setBtnActive = (id) => {
   const activeBtn = document.querySelector('.tab.active');
   if (activeBtn) activeBtn.classList.remove('active');
 
   const homeBtn = document.getElementById(id);
   homeBtn.classList.add('active');
-}
+};
 
 const loadHome = () => {
   const content = document.getElementById('tab-content');

@@ -13,7 +13,7 @@ const addNavEvents = () => {
   contactBtn.addEventListener('click', loadContact);
 };
 
-function init() {
+const init = () => {
   loadPage();
   loadHome();
   addNavEvents();

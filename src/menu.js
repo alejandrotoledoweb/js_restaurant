@@ -1,12 +1,12 @@
-function setBtnActive(id) {
+const setBtnActive = (id) => {
   const activeBtn = document.querySelector('.tab.active');
   if (activeBtn) activeBtn.classList.remove('active');
 
   const homeBtn = document.getElementById(id);
   homeBtn.classList.add('active');
-}
+};
 
-function createFood(src, text, price, alt) {
+const createFood = (src, text, price, alt) => {
   const food = document.createElement('div');
   food.classList.add('food');
   food.className = 'mt-5 d-flex flex-column pr-5 justify-content-center mx-auto';
@@ -33,7 +33,7 @@ function createFood(src, text, price, alt) {
   food.appendChild(img);
   food.appendChild(description);
   return food;
-}
+};
 
 const loadMenu = () => {
   const content = document.getElementById('tab-content');
