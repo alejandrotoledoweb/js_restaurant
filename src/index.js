@@ -17,6 +17,6 @@ const init = () => {
   loadPage();
   loadHome();
   addNavEvents();
-}
+};
 
 init();
